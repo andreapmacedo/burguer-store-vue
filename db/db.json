@@ -100,6 +100,41 @@
       ],
       "status": "Solicitado",
       "id": 4
+    },
+    {
+      "nome": "André",
+      "carne": "Maminha",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Bacon",
+        "Tomate"
+      ],
+      "status": "Solicitado",
+      "id": 5
+    },
+    {
+      "nome": "André",
+      "carne": "",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Bacon",
+        "Tomate",
+        "Pepino"
+      ],
+      "status": "Finalizado",
+      "id": 6
+    },
+    {
+      "nome": null,
+      "carne": null,
+      "pao": null,
+      "opcionais": [
+        "Tomate",
+        "Cheddar",
+        "Cebola roxa"
+      ],
+      "status": "Solicitado",
+      "id": 7
     }
   ]
 }
