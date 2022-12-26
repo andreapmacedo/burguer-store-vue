@@ -7,8 +7,6 @@
       </router-link>
       <router-link to="/">HOME</router-link>
       <router-link to="/pedidos">Pedidos</router-link>
-      <!-- <router-link to="/">Fazer Pedido</router-link>
-      <router-link to="/pedidos">Pedidos</router-link> -->
     </div>
   </div>
 
