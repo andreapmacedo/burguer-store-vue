@@ -54,7 +54,7 @@ export default {
   },
   methods: {
     async getIngredientes() {
-      const req = await fetch('http://localhost:3000/ingredientes')
+      const req = await fetch('http://localhost:3001/ingredientes')
       const data = await req.json()
 
       this.paes = data.paes
@@ -75,7 +75,7 @@ export default {
 
       const dataJson = JSON.stringify(data)    
 
-      const req = await fetch("http://localhost:3000/burgers", {
+      const req = await fetch("http://localhost:3001/burgers", {
         method: "POST",
         headers: { "Content-Type" : "application/json" },
         body: dataJson
@@ -88,7 +88,7 @@ export default {
       this.msg = "Pedido realizado com sucesso!"
 
       // clear message
-      setTimeout(() => this.msg = "", 3000)
+      setTimeout(() => this.msg = "", 3001)
 
       // limpar campos
       this.nome = ""
